@@ -90,7 +90,7 @@ F H <BR>
 
 <hr>
 <h3>Program:<h3>
-~~~
+```
  from collections import defaultdict
 def dfs(graph,start,visited,path):
     path.append(start)
@@ -111,7 +111,8 @@ visited=defaultdict(bool)
 path=[]
 traversedpath=dfs(graph,start,visited,path)
 print(traversedpath)
-~~~
+```
+
  <h3>Output:<h3>
  <img width="1175" height="287" alt="image" src="https://github.com/user-attachments/assets/9854ff43-9f88-4687-acb2-79d8b6814e29" />
 
